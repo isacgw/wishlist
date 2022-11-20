@@ -1,7 +1,9 @@
-import Head from 'next/head'
-import { GraphQLClient, gql } from 'graphql-request'
+import Head from 'next/head';
+import { GraphQLClient, gql } from 'graphql-request';
 import styles from '../styles/Home.module.css';
-import Card from '../components/Card'
+import Card from '../components/Card';
+import Header from '../components/Header';
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 const graphcms = new GraphQLClient('https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/clal2b1qv1eqq01ta3nbi9x2w/master');
 
@@ -39,9 +41,19 @@ export default function Home({items}) {
       </Head>
 
       <main className={styles.container}>
+        <Header />
         {items.map((item) =>(
           <Card title={item.title} image={item.image.url} url={item.url} id={item.id} key={item.id} />
         ))}
+        <Player
+            autoplay
+            loop
+            src="https://assets2.lottiefiles.com/packages/lf20_flfbkvsh.json"
+            style={{ height: '200px', width: '200px', margin: '40px auto' }}
+            background={"transparent"}
+            >
+            <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
+        </Player>
       </main>
 
       </div>

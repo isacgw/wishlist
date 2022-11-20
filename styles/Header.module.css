@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300;400;600&display=swap');
+
+.header {
+
+    border-bottom: 1px solid red;
+    font-family: 'Sono', sans-serif;
+
+    width: 90%;
+    margin: 20px 0;
+}
+
+.header h1 {
+    font-size: 46px;
+    text-align: center;
+    color: #19282F;
+}
+
+.header a {
+    color: #F05454;
+    margin: auto;
+    display: block;
+
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    text-align: center;
+
+    border-radius: 20px;
+    border: 1px solid #F05454;
+}
