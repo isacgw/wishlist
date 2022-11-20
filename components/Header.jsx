@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Header.module.css';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import Santa from '../public/assets/merry-christmas.gif';
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
             src="https://assets10.lottiefiles.com/packages/lf20_stxjvzmw.json"
             style={{ height: '200px', width: '200px', margin: '40px auto' }}
             >
-            <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
+            {/* <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} /> */}
         </Player>
     </div>
   )

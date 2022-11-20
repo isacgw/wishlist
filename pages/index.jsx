@@ -52,7 +52,7 @@ export default function Home({items}) {
             style={{ height: '200px', width: '200px', margin: '40px auto' }}
             background={"transparent"}
             >
-            <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} />
+            {/* <Controls visible={false} buttons={['play', 'repeat', 'frame', 'debug']} /> */}
         </Player>
       </main>
 
