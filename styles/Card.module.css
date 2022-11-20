@@ -37,13 +37,13 @@
     background: #F05454;
 }
 
-.card .imageContainer {
+.imageContainer {
     height: 450px;
 
     border-radius: 30px 30px 0 0;
 }
 
-.imageContainer img {
+.image {
     object-fit: cover;
     height: 100%;
     width: 100%;
