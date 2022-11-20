@@ -40,7 +40,7 @@ export default function Home({items}) {
 
       <main className={styles.container}>
         {items.map((item) =>(
-          <Card title={item.title} image={item.image.url} url={item.url} id={item.id} />
+          <Card title={item.title} image={item.image.url} url={item.url} id={item.id} key={item.id} />
         ))}
       </main>
 
