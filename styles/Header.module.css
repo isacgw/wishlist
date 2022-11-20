@@ -2,7 +2,7 @@
 
 .header {
 
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #F05454;
     font-family: 'Sono', sans-serif;
 
     width: 90%;
@@ -12,11 +12,11 @@
 .header h1 {
     font-size: 46px;
     text-align: center;
-    color: #19282F;
+    color: #fffcee;
 }
 
 .header a {
-    color: #F05454;
+    color: white;
     margin: auto;
     display: block;
 
@@ -26,5 +26,5 @@
     text-align: center;
 
     border-radius: 20px;
-    border: 1px solid #F05454;
+   background: #F05454;
 }
