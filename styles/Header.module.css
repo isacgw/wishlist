@@ -28,3 +28,21 @@
     border-radius: 20px;
    background: #F05454;
 }
+
+.header a:hover {
+    background: #f87676;
+}
+
+.header a:active {
+    background: #f87676;
+}
+
+/* ------- MEDIUM DEVICES ------- */
+
+@media only screen and (min-width: 768px) {
+
+    .header a {
+
+        width: 500px;
+    }
+}
